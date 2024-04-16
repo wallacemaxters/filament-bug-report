@@ -14,12 +14,6 @@ class ListUsers extends ListRecords
     {
         return [
             Actions\CreateAction::make(),
-
-            Actions\Action::make('test')
-            ->icon('heroicon-o-document-text')
-            ->labeledFrom('md')
-            ->label('Testando')
-            ->url('https://teste.com', true)
         ];
     }
 }
